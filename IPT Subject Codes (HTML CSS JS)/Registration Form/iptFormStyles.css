@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    font-family: Roboto;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    height: 770px;
+    width: 620px;
+    margin: 100px auto;
+    padding-top: 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(78, 196, 10);
+    box-shadow: 0 0 13px rgb(78, 196, 10), inset 0 0 10px rgb(78, 196, 10);
+    backdrop-filter: blur(8px);
+}
+
+.header-container {
+    height: 40px;
+    width: 550px;
+    margin: auto;
+    border-bottom: 3px solid rgb(78, 196, 10);
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.input-container {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    padding-top: 40px;
+    border-top: 3px solid rgb(78, 196, 10);
+    margin: 0 auto;
+    width: 550px;
+}
+
+.inputs {
+    display: flex;
+    width: 545px;
+    margin: 0 auto 30px;
+}
+
+.firstName {
+    margin-right: 82px;
+}
+
+.lastName {
+    margin-right: 84px;
+}
+
+.birthDate {
+    margin-right: 94px;
+}
+
+.email {
+    margin-right: 122px;
+}
+
+.cemail {
+    margin-right: 60px;
+}
+
+.pass {
+    margin-right: 91px;
+}
+
+.cpass {
+    margin-right: 29px;
+}
+
+label {
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    height: 40px;
+    width: 370px;
+    border-radius: 5px;
+    border: none;
+    transition: ease-in .2s;
+    text-indent: 15px;
+    background-color: transparent;
+    border: 2px solid rgb(78, 196, 10);
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(78, 196, 10);
+    box-shadow: 0 0 10px rgb(78, 196, 10), inset 0 0 5px rgb(78, 196, 10);
+    background-color: transparent;
+    transition: ease-out .2s;
+}
+
+input::placeholder {
+    color: rgb(193, 169, 169);
+}
+
+button {
+    margin: 0 165px 0;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    transition: ease-in .1s;
+}
+
+button:focus {
+    outline: none;
+    border-color: none;
+    box-shadow: none;
+    transition: ease-out .1s;
+}
+
+button:active {
+    background-color: rgb(163, 200, 194);
+    color: black;
+    transition: ease-in-out .1s;
+}
